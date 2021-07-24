@@ -1,12 +1,11 @@
 .heading{
-    font-size: 24px;
     width: 100%;
-    margin-top: 1;
-    box-shadow: 5px 5px 5px grey;
+    font-size: 24px;
+    box-shadow: gray;
 }
-.note{
-    font-size: 15px;
-    color: black;
+.heading p {
+    color: white;
+    font-size: 18px;
 }
 .copy_right_footer{
     position: fixed;
@@ -17,9 +16,4 @@
     line-height: 3;
     text-align: center;
     width: 100%;
-}
-canvas{
-    border: 5px solid black;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
 }

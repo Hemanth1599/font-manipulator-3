@@ -34,8 +34,9 @@ function gotPoses(results){
 
 function draw(){
     background('#DDBCB5');
-    document.getElementById("square_side").innerHTML = "width and height of the square is " + difference + "px";
+    document.getElementById("empty").innerHTML = "width and height of the square is " + difference + "px";
+    textSize(difference);
     fill('#BDEA02');
     stroke('#C16F5D');
-    square(noseX,noseY,difference);
+    text('Hemanth', 50 , 200);
 }
